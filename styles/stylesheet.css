@@ -1,0 +1,167 @@
+/*Tyler Waite's Week 5 homework*/
+*   {margin: 0;
+     padding: 0;}
+
+body {
+      font-family: 'Open Sans', sans-serif;
+      width: 1280x;
+      height: 760px;
+      background-color: white;
+      margin: 1rem;
+}
+
+header {
+        color: black;
+        float:left;clear: both;
+        width: 100%; 
+        height: 25%;
+/*    background-color: blue;*/
+}
+
+.logo {
+        background-color: #c1e057;
+        width: 100%;
+        height: 70%;
+}
+
+.logo h1 {
+            width:100%;
+            font-size: 2.5em;
+            font-weight: 300;
+            align: left;
+            padding-left: 1rem;
+            padding-top: 1rem;
+}
+
+.logo h2 {
+            width:100%;
+            font-size: 1.5em;
+            font-weight: 300;
+            align: left;
+            padding-left: 1rem;
+            padding-bottom: 3rem;
+}
+
+header nav {
+            width: 100%;
+            height: 20%; 
+            background-color: white;
+            padding-top: 1rem;
+          /*  background-color: orange;*/
+}
+
+header nav li {float:left;
+               padding: .5rem 1.5rem;
+               text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+header nav a:link {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.bottom {float: left; 
+         width: 100%;
+         height: 75%;
+}
+
+.leftNav {
+            width: 20%;
+            height: 100%;
+            float:left; clear:both;
+            padding-right: 1rem;
+/*            background-color: pink; I used this to see where the boundaries were*/
+}
+
+.leftNav ul{
+              background-color: #57dfdd;
+              text-decoration: none;
+              width: 100%;
+              height: 70%;
+              padding-top: 2rem;
+/*              padding-bottom: 2rem;*/
+              margin-bottom: 1rem;
+              margin-right: 1rem;
+            /*  background-color: purple; I used this to see where the boundaries were*/
+}
+
+.leftNav li{
+             padding-top: 1rem;
+             padding-left: 3rem;
+             padding-bottom: 1rem;
+             font-size: 1rem;
+}
+
+.leftNav a:link {
+                  color: white;
+                  text-transform: uppercase;
+}
+
+.spacer {    
+               width: 100%;
+               height: 21%;
+               background-color: #57bedf; 
+               margin-bottom: 1rem;}
+/*             background-color: yellow; I used this to see where the boundaries were*/
+}
+
+.main {
+       float:left;
+       width: 78.5%;         
+       height: 100%;
+/*       background-color: brown; I used this to see where the boundaries were*/
+}
+
+h2.headline {float:left;
+              background-color: #dfd758;
+              width: 78.8%;
+              height: 15%;
+              color: white;
+              font-size: 2rem;
+              font-weight: 300;
+              text-align: center;
+              text-transform: uppercase;
+              padding-top: 1rem;
+              padding-bottom: 1rem;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.content {float:left;
+         width: 78.8%;
+         height: 60%;
+/*         background-color: cyan;I used this to see where the boundaries were*/
+}
+
+.content p {
+            padding: 1rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            font-size: 1rem;
+}
+
+footer {float:right;
+        background-color: #aeafb1;
+        width: 78.8%;
+        height: 25%;
+    /*  background-color:black;I used this to see where the boundaries were*/
+}
+
+footer span {
+            float:right;
+            list-style-type: none;
+            padding-left: 1rem;
+}
+
+.icon {
+      color:#aeafb1;
+}
